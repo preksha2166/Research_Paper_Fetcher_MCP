@@ -1,0 +1,33 @@
+{
+  "name": "research-paper-fetcher-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for intelligent research paper discovery and management",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "groq-sdk": "^0.7.0",
+    "axios": "^1.7.0",
+    "xml2js": "^0.6.0",
+    "pdf-lib": "^1.17.0",
+    "notion-client": "^2.2.0",
+    "webdav": "^5.6.0",
+    "cheerio": "^1.0.0",
+    "rate-limiter-flexible": "^5.0.0",
+    "dotenv": "^16.4.5",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/xml2js": "^0.4.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
+
